@@ -1,5 +1,5 @@
 import csv
-from .models import entry
+from entry.models import entry
 
 
 with open('words.csv') as words:
