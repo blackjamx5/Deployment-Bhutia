@@ -59,8 +59,8 @@ a {
 	-webkit-user-select: none;
 
 	/*
-	Introduced in IE 10.
-	See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+		Introduced in IE 10.
+		See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
 	*/
 	-ms-user-select: none;
 	user-select: none;
@@ -69,18 +69,31 @@ html {
 	background-color: #ee6e73 }
 
 
+	.navigation-container {
+		position: fixed;
+		width: 92%;
+		height: 10%;
+		top: 40%;
+		left: 50%;
+		right: 50%;
+		transform: translate(-24%);
+
+	}
+
 
 	h1 a {
 		color: white;
 		padding-left: 45px;
 		text-decoration: none;
 		font: 300 45px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 	}
 
 
 	#Logo {
+		width: 540px;
 		text-align: center;
-		white-space: nowrap;
+		display: inline-block;
 	}
 
 
@@ -89,30 +102,8 @@ html {
 	Begin things for search bar
 	*/
 
-	.hero {
-		display: block;
-		background: blue;
-		width: 80%;
-		vertical-align: center;
-		margin:auto;
-		border-radius: 5px;
-		padding: 35px;
-		height:100%;
-	}
-
-	.navigation {
-		height: 10%;
-		display: block;
-		vertical-align: center;
-
-		border-radius: 5px;
-		padding: 35px;
-
-	}
-
-
 	.navigation input#search {
-		width: 500px;
+		width: 83.07692%;
 		height: 75%;
 		background: #fcfcfc;
 		border: none;
@@ -160,23 +151,11 @@ html {
 	}
 
 
-#fullbar{
-	display: inline-block;
-	width: 100%
-}
-
-.fullbar-container {
-	padding-left: 10%;
-}
+	#search-and-option{
+		width: 650px
+	}
 
 	/*
-
-	#search-and-option{
-		display: block;
-		padding-left: 10%;
-		margin-right: 0px;
-
-	}
 	begin list item/search option selections
 	*/
 	li{
@@ -186,13 +165,10 @@ html {
 
 	#options {
 		height:85%;
-		float: left;
+
+		float:right;
 		display:inline-block;
 
-	}
-
-	form {
-		padding-left: 10%;
 	}
 
 	li a {
@@ -232,8 +208,8 @@ html {
 	}
 
 	button:active {
-		background-color: #d6575c;
-	}
+    background-color: #d6575c;
+}
 
 
 
