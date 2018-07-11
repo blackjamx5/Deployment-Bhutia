@@ -16,3 +16,8 @@ $ git add .
 $ git commit -m "Some random message"
 $ git push heroku master
 
+
+Stupid bugs that have no reason to be there:
+-Having <button> for your translation option is bad. It will refresh the page and submit the form. However, for some reason having <button type="button"> stops the page from submitting.
+
+-refreshing the page you're working on to see any updates you made to the html will not always result in the updates
