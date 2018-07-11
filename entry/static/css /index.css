@@ -206,7 +206,7 @@ html {
 		font-family: Montserrat, sans-serif;
 		text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 	}
-	li a:hover {
+	li a:hover, li a:active {
 		background-color: #ec5f64;
 
 	}
@@ -227,11 +227,11 @@ html {
 	}
 
 
-	button:hover  {
+	button:hover, button:active  {
 		background-color: #ec5f64;
 	}
 
-	button:active {
+	button:active, button:active {
 		background-color: #d6575c;
 	}
 
@@ -260,7 +260,7 @@ html {
 		float: none;
 	}
 
-	#options:hover .subnav {
+	#options:hover .subnav, #options:active .subnav {
 		visibility: visible;
 		top: 90%;
 		opacity: 1;
