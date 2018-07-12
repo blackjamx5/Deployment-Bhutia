@@ -60,3 +60,11 @@ button:focus {
 .navigation  input#search:-ms-input-placeholder {
 	color: #65737e;
 }
+
+input {
+	font-size: 50%;
+}
+
+li button, #options {
+	font-size: 50%;
+}
